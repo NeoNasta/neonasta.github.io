@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="NeoNasta | NeoNasta#1741">
+    <link rel="shortcut icon" href="/proyecto/assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="javascript.js"></script>
+    <title>Formando Cracks</title>
+  </head>
+<body>
+  <header>
+    <img class="logo" src="/proyecto/assets/logo.png" width=60 />
+    <ul>
+      <li><a href="#">INFORMACION</a></li>
+      <li><a href="#">DONDE ESTAMOS?</a></li>
+      <img class="minilogo" src="/proyecto/assets/facebook.png" width=25/>
+      <img class="minilogo" src="/proyecto/assets/instagram.png" width=25/>
+      <img class="minilogo" src="/proyecto/assets/whatsapp.png" width=25/>
+      <img class="minilogo" src="/proyecto/assets/youtube.png" width=25/>
+    </ul>
+  </header>
+  <section class="banner">
+    <div class="header-titulo">
+      <h1>Formando Cracks</h1>
+      <h3>¡NO HAY QUE ESPERAR A SER GRANDE PARA SER GRANDE!</h3>
+    </div>
+  </section>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    })
+  </script>
+    <div class="web-text web-color-text">
+      <br>
+      <span>Los invito a entrenar con nosotros, las primeras 2 clases totalmente gratuitas.</span>
+      <br>
+      <span>Entrenamos en la cancha de Open Gallo, ubicado en Gallo 241, Almagro. Cuando llegue puede preguntar en cuál</span>
+      <br>
+      <span>cancha entrena la escuela de Formando Cracks o preguntar por el Profesor Eber.</span>
+      <p> </p>
+    </div>
+
+    <div class="web-informacion web-color-text">
+      <div class="web-informacion-tittle">
+        <h2>INFORMACION</h2> 
+      </div>
+      <div class="web-informacion-container">
+        <div class="web-informacion-sedes">
+          <h2>Sedes</h2>
+          <p>Constitución Calle Salta 1727 CABA</p>
+          <p>Gallo 241 barrio Almagro CABA </p>
+        </div>
+
+        <div class="web-informacion-horario">
+          <h2>Horarios</h2>
+          <span>Martes y jueves</span>
+          <br>
+          <span>5 a 9 años de 17 a 18 h</span>
+          <br>
+          <span>10 a 15 años de 18 a 19 h</span>
+          <br>
+          <p> </p>
+          <span>Sábados</span>
+          <br>
+          <span>10 a 15 años de 10 a 11 h</span>
+          <br>
+          <span>5 a 9 años de 11 a 12 h</span>
+          <br>
+          <p> </p>
+          <span>Domingo</span>
+          <br>
+          <span>5 a 9 años de 16 a 17 h</span>
+          <br>
+          <span>10 a 15 años de 17 a 18 h</span>
+        </div>
+        
+        <div class="web-informacion-servicios">
+          <h2>Servicios</h2>
+          <p>Clase por alumno niño.</p>
+          <p>Mensual por alumno niño.</p>
+        </div>
+      </div>
+    </div>
+    <div class="web-planes-precios web-color-text">
+      <div class="web-precios-precios-tittle">
+        <h1>Planes & Precios</h1>
+      </div>
+      <div class="web-planes-container">
+        <div class="web-planes-precios-clases">
+          <h2>Clases</h2>
+          <p>$ 250 / Clase</p>
+          <p>Nuestro plan menos popular.</p>
+          <form name="clases-calculator">
+            <div class="clases">
+              <select name="clases" id="clases" onchange="clasesCalculate()">
+                <option value="1">1 Clase</option>
+                <option value="2">2 Clases</option>
+                <option value="3">3 Clases</option>
+                <option value="4">4 Clases</option>
+                <option value="5">5 Clases</option>
+                <option value="6">6 Clases</option>
+                <option value="7">7 Clases</option>
+                <option value="8">8 Clases</option>
+                <option value="9">9 Clases</option>
+                <option value="10">10 Clases</option>
+                <option value="11">11 Clases</option>
+                <option value="12">12 Clases</option>
+              </select>
+            </div>
+            <div id="clasexprice"></div> 
+          </form>
+        </div>
+        <div class="web-planes-precios-mensual">
+          <h2>Mensual</h2>
+          <p>$ 3,500 / Mes</p>
+          <p>Nuestro plan más popular.</p>
+          <form name="meses-calculator">
+            <div class="meses">
+              <select name="meses" id="meses" onchange="mesesCalculate()">
+                <option value="1">1 Mes</option>
+                <option value="2">2 Meses</option>
+                <option value="3">3 Meses</option>
+                <option value="4">4 Meses</option>
+                <option value="5">5 Meses</option>
+                <option value="6">6 Meses</option>
+                <option value="7">7 Meses</option>
+                <option value="8">8 Meses</option>
+                <option value="9">9 Meses</option>
+                <option value="10">10 Meses</option>
+                <option value="11">11 Meses</option>
+                <option value="12">12 Meses</option>
+              </select>
+            </div>
+            <div id="mesesprice"></div> 
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="web-ubi-map">
+      <div class="web-ubicacion"> 
+        <img src="/proyecto/assets/ubicacion.png" />
+      </div>
+      <div class="web-ubicacion-donde web-color-text"> 
+        <h2>¿Donde Estamos?</h2>
+      </div>
+    </div>
+
+    <div class="web-map">
+      <iframe src="https://maps.google.com/maps?q=Gallo%20241%20barrio%20Almagro%20CABA%20&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      <br>
+      <br>
+      <br>
+    </div>
+    <div class="footer-con web-color-text">
+      <div class="footer-social">
+        <a href="#"><img src="/proyecto/assets/facebook.png" width=35 class="footer-social"/></a>
+        <a href="#"><img src="/proyecto/assets/instagram.png" width=35 class="footer-social"/></a>
+        <a href="#"><img src="/proyecto/assets/whatsapp.png" width=35 class="footer-social"/></a>
+        <a href="#"><img src="/proyecto/assets/youtube.png" width=35 class="footer-social"/></a>
+      </div>
+      <div class="footer-text">
+        <span>Copyright © Formando Cracks 2022.</span>
+        <br>
+        <span>Todos los derechos reservados.</span>
+      </div>
+    </div>
+</body>
+</html>
