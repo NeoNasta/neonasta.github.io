@@ -1,4 +1,3 @@
-![Header](https://prnt.sc/6udIGq0c3bIE.png)
 # Proyecto Labora
 _Primer proyecto, puedes enviarme algunos consejos al discord_
 
