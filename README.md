@@ -1,4 +1,6 @@
+![Header](https://prnt.sc/DmEkt4b3EUTB)
 # Proyecto Labora
+_Primer proyecto, puedes enviarme algunos consejos al discord_
 
 ## Construido con 🛠️
 
@@ -6,4 +8,4 @@
 
 ## Autores ✒️
 
-* **Jhon Mendieta** - *Primer Proyecto* - **Discord: NeoNasta#1741**
+* **Jhon Mendieta** - **Discord: NeoNasta#1741**
