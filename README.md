@@ -1,4 +1,4 @@
-![Neonasta Header](https://prnt.sc/6udIGq0c3bIE)
+https://prnt.sc/6udIGq0c3bIE
 # Proyecto Labora
 _Primer proyecto, puedes enviarme algunos consejos al discord_
 
