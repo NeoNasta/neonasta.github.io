@@ -1,4 +1,4 @@
-![Header](https://imgur.com/ck9KWpJ)
+(https://imgur.com/ck9KWpJ)
 # Proyecto Labora
 _Primer proyecto, puedes enviarme algunos consejos al discord_
 
