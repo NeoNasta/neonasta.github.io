@@ -1,4 +1,4 @@
-![Image1](https://prnt.sc/6udIGq0c3bIE)
+![Header](https://imgur.com/ck9KWpJ)
 # Proyecto Labora
 _Primer proyecto, puedes enviarme algunos consejos al discord_
 
