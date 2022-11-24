@@ -13,35 +13,38 @@
   <header>
     <img class="logo" src="/assets/logo.png" width=60 />
     <ul>
-      <li><a href="#">INFORMACION</a></li>
-      <li><a href="#">DONDE ESTAMOS?</a></li>
-      <a target="_blank" href="https://api.whatsapp.com/send?phone=541170366488&text=%C2%A1Hola%21+Vi+tu+p%C3%A1gina+en+Instagram%2C+me+pasas+m%C3%A1s+info+de+los+entrenamientos."><img class="minilogo" src="/assets/instagram.png" width=27/></a>
-      <a target="_blank" href="https://www.instagram.com/formando_cracks/"><img class="minilogo" src="/assets/whatsapp.png" width=25/></a>
+      <li><a href="#INFORMACION">INFORMACION</a></li>
+      <li><a href="#DONDE ESTAMOS?">DONDE ESTAMOS?</a></li>
+      <a target="_blank" href="https://www.instagram.com/formando_cracks/"><img class="minilogo" src="/assets/instagram.png" width=27/></a>
+      <a target="_blank" href="https://api.whatsapp.com/send?phone=541170366488&text=%C2%A1Hola%21+Vi+tu+p%C3%A1gina+en+Instagram%2C+me+pasas+m%C3%A1s+info+de+los+entrenamientos."><img class="minilogo" src="/assets/whatsapp.png" width=25/></a>
     </ul>
   </header>
   <section class="banner">
-    <div class="header-titulo">
-      <h1>Formando Cracks</h1>
-      <h3>¡NO HAY QUE ESPERAR A SER GRANDE PARA SER GRANDE!</h3>
-    </div>
   </section>
+  <div class="header-titulo">
+    <h1>Formando Cracks</h1>
+    <h3>¡NO HAY QUE ESPERAR A SER GRANDE PARA SER GRANDE!</h3>
+  </div>
   <script type="text/javascript">
     window.addEventListener("scroll", function(){
         var header = document.querySelector("header");
         header.classList.toggle("sticky", window.scrollY > 0);
     })
   </script>
-    <div class="web-text web-color-text">
+    <div class="web-text-tittle">
       <br>
-      <span>Los invito a entrenar con nosotros, las primeras 2 clases totalmente gratuitas.</span>
-      <br>
-      <span>Entrenamos en la cancha de Open Gallo, ubicado en Gallo 241, Almagro. Cuando llegue puede preguntar en cuál</span>
-      <br>
-      <span>cancha entrena la escuela de Formando Cracks o preguntar por el Profesor Eber.</span>
-      <p> </p>
+      <h1>BIENVENIDO</h1>
+    </div>
+    <div class="web-text-container">
+      <img class="logo" src="/assets/logo.png"/>
+      <div class="web-text web-color-text">
+        <span>Los invito a entrenar con nosotros, las primeras 2 clases totalmente gratuitas.</span>
+        <span>Entrenamos en la cancha de Open Gallo, ubicado en Gallo 241, Almagro. Cuando llegue puede preguntar en cuál</span>
+        <span>cancha entrena la escuela de Formando Cracks o preguntar por el Profesor Eber.</span>
+      </div>
     </div>
 
-    <div class="web-informacion web-color-text">
+    <div id="INFORMACION" class="web-informacion web-color-text">
       <div class="web-informacion-tittle">
         <h2>INFORMACION</h2> 
       </div>
@@ -137,8 +140,18 @@
         </div>
       </div>
     </div>
+    
+    <div class="web-images">
+
+
+
+
+
+
+    </div>
+
     <div class="web-ubi-map">
-      <div class="web-ubicacion"> 
+      <div id="DONDE ESTAMOS?" class="web-ubicacion"> 
         <img src="/assets/ubicacion.png" />
       </div>
       <div class="web-ubicacion-donde web-color-text"> 
