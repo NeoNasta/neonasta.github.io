@@ -48,7 +48,7 @@ header ul li a {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url("/assets/img3.png");
+  background-image: url("/assets/backgrounds/img3.png");
   background-size: cover;
   opacity: 0.6;
 }
@@ -95,18 +95,39 @@ body {
   position: relative;
   width: 100%;
   display: flex;
-  font-size: 18px;
+  background-color: #17181f;
+  border-radius: 10px;
+  padding: 10px 20px;
 }
 
 .web-text-container > img {
   width: 800px;
-  height: 400px;
-  position: relative;
-  background: #17181f;
-  margin: 0px 100px;
-  justify-content: space-between;
-
+  height: 500px;
+  border-radius: 10px;
+  margin: 0px 40px;
 }
+.web-text > span{
+  font-size: 20px;
+}
+
+.web-images {
+  text-align: center;
+  color: white;
+}
+.web-img-container1 {
+  display: flex;
+  justify-content: center;
+  height: 310px;
+  margin: 10px;
+}
+.web-img-container2 {
+  display: flex;
+  justify-content: center;
+  height: 342px;
+}
+
+
+
 
 /*.web-text-container {
   background-color: #17181f;
