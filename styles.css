@@ -67,8 +67,10 @@ header.sticky .logo, header.sticky ul li a {
 
 *
 {
-    box-sizing: border-box;
-    font-family: "Core Sans C", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Core Sans C", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 body {
