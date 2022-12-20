@@ -245,6 +245,55 @@ body {
 }
 
 
+.form {
+  background-color: #17181f;
+  width: 90%;
+  margin: auto;
+  max-width: 300px;
+  border-radius: 1em;
+  padding: 1.5em 1.5em;
+}
+
+.form__container {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+
+.form__title {
+  font-size: 1.9rem;
+  color: white;
+  text-align: center;
+  margin-bottom: .4em;
+}
+
+.form__input {
+  font-size: 1rem;
+  padding: .8em 1em;
+  outline: none;
+  border: none;
+  border: 1px solid #bbb0b0;
+  border-radius: 0.2em;
+}
+.form__input--message {
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: .5em;
+}
+.form__cta {
+  background-color: #089FE0;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: .7em 0;
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+
+
 .footer-con {
   padding: 15px 100px;
   background: #000;
